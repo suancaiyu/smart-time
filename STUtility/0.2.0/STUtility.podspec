@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name             = 'STUtility'
   s.version          = '0.2.0'
-  s.summary          = 'A short description of STUtility.'
+  s.summary          = 'st of the Utility.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,12 +18,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'suancaiyucc@163.com' => 'tsia' }
-  s.source           = { :git => 'git@github.com:suancaiyu/STUtility.git', :tag => '0.2.0' }
+  s.source           = { :git => 'https://github.com/suancaiyu/STUtility.git', :tag => '0.2.0' }
 
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'STUtility/Classes/**/*'
+#s.source_files = 'STUtility/Classes/**/*'
   
    s.resource_bundles = {
      'STUtility' => ['STUtility/Assets/*.png']
